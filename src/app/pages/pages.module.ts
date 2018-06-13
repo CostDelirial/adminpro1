@@ -17,6 +17,9 @@ import { ChartsModule } from 'ng2-charts';
 //temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GafricoDonaComponent } from '../components/gafricoDona/gafrico-dona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -25,7 +28,10 @@ import { GafricoDonaComponent } from '../components/gafricoDona/gafrico-dona.com
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GafricoDonaComponent
+        GafricoDonaComponent,
+        AccountSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports:[
         DashboardComponent,
